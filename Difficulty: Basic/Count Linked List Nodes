@@ -1,0 +1,18 @@
+class Solution {
+  public:
+    // Function to count nodes of a linked list.
+    int getCount(struct Node* head) {
+        if(!head){
+            cout<<0;
+        }
+        Node* temp=head;
+        int count=0;
+        while(temp){
+            temp=temp->next;
+            count++;
+        }
+        return count;
+        // Code here
+    }
+    
+};
