@@ -1,0 +1,8 @@
+Node * deleteHead(Node *head)
+{
+    //Your code here
+    Node* temp=head;
+    head=head->next;
+    delete temp;
+    return head;
+}
