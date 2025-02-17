@@ -1,0 +1,8 @@
+class Solution {
+  public:
+    string substring(string &s, int L, int R) {
+        // code here
+        string k=s.substr(L,R-L+1);
+        return k;
+    }
+};
