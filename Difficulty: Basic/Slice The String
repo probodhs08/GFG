@@ -1,0 +1,5 @@
+string sliceString(string &s) {
+    // code here
+    int l=s.length();
+    return s.substr(1,l-2);
+}
