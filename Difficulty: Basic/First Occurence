@@ -1,0 +1,8 @@
+class Solution {
+  public:
+    int firstOccurence(string &txt, string &pat) {
+        // Your code here
+        
+        return txt.find(pat);
+    }
+};
